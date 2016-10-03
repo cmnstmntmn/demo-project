@@ -9,7 +9,7 @@ const fs = require('fs-extra')
 fs.removeSync('workspace/build')
 
 wright({
-  main: 'http://wright-test.dev/',
+  main: 'http://wright-test.dev',
   debug: true,
   fps: true,
   run: 'm.redraw()',
