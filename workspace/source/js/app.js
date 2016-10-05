@@ -1,21 +1,34 @@
 import m from 'mithril'
+import modal from 'mithril-modal'
 
 window.m = m;
 
 const app = {
-  view: (ctrl) => {
-    console.log(ctrl)
+    view: function(ctrl) {
+        return [
+            m("button[type=button]", {
+                onclick: function() {
+                    modal.show();
+                }
+            }, "Click to show modal"),
+            m.component(modal, {
+                animation: '3dSlit',
+                style: {
+                    dialog: {
+                        backgroundColor: '#aaf3ee',
+                        width: '700px'
+                    }
+                },
+                close: '✘',
+            }, m.component(inner))
+        ]
+    }
+}
 
-    return m('h1', {
-      style: {
-        fontFamily: 'Tahoma',
-        backgroundColor: 'black',
-        color: 'white',
-        margin: 0,
-        padding: '10px'
-      }
-    }, 'Hello there!')
-  }
+const inner = {
+    view: function() {
+      return m('div', m("h1", "Hello world"))
+    }
 }
 
 window.onload = () => {
