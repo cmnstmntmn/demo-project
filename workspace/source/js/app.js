@@ -1,5 +1,6 @@
 import m from 'mithril'
 import modal from 'mithril-modal'
+import mx from './storage';
 
 window.m = m;
 
