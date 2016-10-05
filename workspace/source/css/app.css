@@ -1,12 +1,7 @@
-/* node_modules dependencies */
-@import 'suitcss';
-@import 'sanitize.css'; 
-
-/* local dependencies */
-
 @import 'vars.css';
+@import 'suitcss';
 
 body {
-	color: var(--brand-color);
-	background:color(red a(60%));
+	color: red;
+	background: var(--color-brand);
 }

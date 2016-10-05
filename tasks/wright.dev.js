@@ -42,15 +42,15 @@ function roll() {
 
 function style() {
   return postcss([
-    require('postcss-import'),
+    require('postcss-import')(),
     require('autoprefixer')({ browsers: ['last 3 versions', '> 5%', 'ie >= 10'] }),
     require('postcss-custom-properties'),
     require('postcss-mixins'),
-    require('postcss-simple-vars'),
     require('postcss-color-function'),
     require('postcss-nested'),
     require('postcss-typescale'),
     require('postcss-atroot'),
+    require('postcss-simple-vars'),   
     require('postcss-button'),
     require('cssnano')(
       {
@@ -60,6 +60,6 @@ function style() {
       }
     )
   ])
-  .process(fs.readFileSync('workspace/source/css/app.css', 'utf8'))
+  .process(fs.readFileSync('workspace/source/css/app.css', 'utf8'), {from: "workspace/source/css/app.css"})
   .then(result => result.css)
 }

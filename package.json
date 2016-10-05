@@ -41,7 +41,7 @@
     "rollup-plugin-json": "^2.0.2",
     "rollup-plugin-node-resolve": "^2.0.0",
     "rollup-plugin-uglify": "^1.0.1",
-    "wright": "git+https://github.com/porsager/Wright.git#fd28d68"
+    "wright": "git+https://github.com/porsager/Wright.git"
   },
   "dependencies": {
     "autoprefixer": "^6.5.0",
