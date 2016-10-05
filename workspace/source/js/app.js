@@ -3,6 +3,12 @@ import modal from 'mithril-modal'
 
 window.m = m;
 
+const inner = {
+    view: function() {
+      return m('div', m("h1", "Hello worlds"))
+    }
+}
+
 const app = {
     view: function(ctrl) {
         return [
@@ -12,7 +18,7 @@ const app = {
                 }
             }, "Click to show modal"),
             m.component(modal, {
-                animation: '3dSlit',
+                animation: 'blur',
                 style: {
                     dialog: {
                         backgroundColor: '#aaf3ee',
@@ -25,12 +31,6 @@ const app = {
     }
 }
 
-const inner = {
-    view: function() {
-      return m('div', m("h1", "Hello world"))
-    }
-}
-
 window.onload = () => {
-  m.mount(document.body, app)
+  document.getElementById('app') ? m.mount(document.getElementById('app'), app) : null
 }
