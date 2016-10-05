@@ -58,8 +58,7 @@ function style() {
           removeAll: false
         }
       }
-    ),
-    require('precss')
+    )
   ])
   .process(fs.readFileSync('workspace/source/css/app.css', 'utf8'))
   .then(result => result.css)

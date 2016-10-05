@@ -3,14 +3,22 @@ import m from 'mithril'
 window.m = m
 
 const app = {
-  view: () => {
+  controller: () => {
+    title: m.prop('ceva2')
+  },
+
+  view: (ctrl) => {
+    console.log(ctrl)
+
     return m('h1', {
       style: {
+        fontFamily: 'Tahoma',
         backgroundColor: 'black',
         color: 'white',
-        padding: '20px'
+        margin: 0,
+        padding: '10px'
       }
-    }, 'Hello there')
+    }, 'Hello there!')
   }
 }
 
