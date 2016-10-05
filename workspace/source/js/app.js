@@ -1,12 +1,8 @@
 import m from 'mithril'
 
-window.m = m
+window.m = m;
 
 const app = {
-  controller: () => {
-    title: m.prop('ceva2')
-  },
-
   view: (ctrl) => {
     console.log(ctrl)
 
