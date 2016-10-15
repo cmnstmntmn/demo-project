@@ -2,6 +2,7 @@
 @import 'suitcss';
 
 body {
-	color: red;
+	color: orange;
 	background: var(--color-brand);
+	padding: 2rem;
 }

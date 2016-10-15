@@ -1,6 +1,6 @@
 import m from 'mithril'
 import modal from 'mithril-modal'
-import mx from './storage';
+import some from './thing'
 
 window.m = m;
 
@@ -22,7 +22,7 @@ const app = {
                 animation: 'blur',
                 style: {
                     dialog: {
-                        backgroundColor: '#aaf3ee',
+                        backgroundColor: '#dedede',
                         width: '700px'
                     }
                 },
