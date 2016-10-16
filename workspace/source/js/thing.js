@@ -9,6 +9,6 @@
 
 const some = {}
 // trigger_the_error
-alert('Everything should be ok now!')
+// alert('Everything should be ok now!')
 
 export default some;

@@ -45,6 +45,7 @@
     "postcss": "^5.2.4",
     "rollup": "^0.36.1",
     "sanitize.css": "^4.1.0",
-    "suitcss": "^2.0.0"
+    "suitcss": "^2.0.0",
+    "wright": "github:porsager/wright#proxy"
   }
 }
