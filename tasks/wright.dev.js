@@ -35,7 +35,7 @@ function roll() {
   }).then(bundle => {
     return bundle.generate({
       format: 'iife',
-      moduleName: 'tipografics'
+      moduleName: 'test'
     }).code
   })
 }

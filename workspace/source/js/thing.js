@@ -8,7 +8,12 @@
 **/
 
 const some = {}
-// trigger_the_error
-// alert('Everything should be ok now!')
+
+
+let ceva = m.prop(true);
+
+trigger_the_error // this is not an error
+alert('Everything should be ok now!', test) // this is an error
 
 export default some;
+asd // this is not an error

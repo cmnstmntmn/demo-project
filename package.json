@@ -33,19 +33,18 @@
     "rollup-plugin-commonjs": "^5.0.4",
     "rollup-plugin-json": "^2.0.2",
     "rollup-plugin-node-resolve": "^2.0.0",
-    "rollup-plugin-uglify": "^1.0.1",
-    "wright": "git+https://github.com/porsager/Wright.git#aacb42f"
+    "rollup-plugin-uglify": "^1.0.1"
   },
   "dependencies": {
-    "autoprefixer": "^6.5.0",
     "fastclick": "^1.0.6",
+    "fs-extra": "^0.30.0",
     "hammerjs": "^2.0.8",
     "mithril": "^0.2.5",
     "mithril-modal": "0.0.1",
-    "postcss": "^5.2.4",
+    "purify-css": "^1.1.9",
     "rollup": "^0.36.1",
     "sanitize.css": "^4.1.0",
     "suitcss": "^2.0.0",
-    "wright": "github:porsager/wright#proxy"
+    "wright": "git+https://github.com/porsager/Wright.git#ade11a9"
   }
 }

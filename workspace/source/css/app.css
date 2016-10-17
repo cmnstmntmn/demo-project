@@ -6,3 +6,7 @@ body {
 	background: var(--color-brand);
 	padding: 2rem;
 }
+
+.content {
+	color:red;
+}
