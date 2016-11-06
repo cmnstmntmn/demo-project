@@ -21,6 +21,7 @@ wright({
   },
   css: {
     watch: 'workspace/source/css/**/*.css',
+    path: '/css/app.css',
     compile: style
   },
   watch: ['**/*.html']
