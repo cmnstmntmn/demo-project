@@ -11,6 +11,7 @@ const fs = require('fs-extra')
     , purify = require('purify-css')
 
 // fs.copySync('./static', './public', { clobber: true })
+fs.copySync('./workspace/source/fonts', './workspace/build/fonts', { clobber: true })
 fs.ensureDir('./workspace/build/css')
 fs.ensureDir('./workspace/build/js')
 
@@ -37,8 +38,7 @@ module.exports = rollup.rollup({
 
 let content = ['workspace/source/js/*.js', '*.html'];
 var options = {
-  output: 'workspace/build/css/purified.css',
-
+  output: 'workspace/build/css/app.css',
   // Will minify CSS code in addition to purify.
   minify: true,
   info: true,
@@ -60,7 +60,7 @@ postcss([
     require('cssnano')(
       {
         discardComments: {
-          removeAll: false
+          removeAll: true
         }
       }
     )

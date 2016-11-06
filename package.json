@@ -45,6 +45,6 @@
     "rollup": "^0.36.1",
     "sanitize.css": "^4.1.0",
     "suitcss": "^2.0.0",
-    "wright": "git+https://github.com/porsager/Wright.git#ade11a9"
+    "wright": "github:porsager/Wright"
   }
 }

@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'icons';
+  src: url('../fonts/icons/tipografics.eot?96883036');
+  src: url('../fonts/icons/tipografics.eot?96883036#iefix') format('embedded-opentype'), url('../fonts/icons/tipografics.woff2?96883036') format('woff2'), url('../../fonts/icons/tipografics.woff?96883036') format('woff'), url('../../fonts/icons/tipografics.ttf?96883036') format('truetype'), url('./../fonts/icons/tipografics.svg?96883036#tipografics') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "icons";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  text-align: center;
+  /* opacity: .8; */
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+  /* fix buttons height, for twitter bootstrap */
+  /*line-height: 1em;*/
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  /*margin-left: .2em;*/
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.icon-bag:before {
+  content: '\e800';
+}
+
+
+/* '' */
+
+.icon-upload:before {
+  content: '\f0ee';
+}
+
+
+/* '' */
+
+.icon-files:before {
+  content: '\f1c6';
+}
+
+
+/* '' */

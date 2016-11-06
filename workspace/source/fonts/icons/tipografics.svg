@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2016 by original authors @ fontello.com</metadata>
+<defs>
+<font id="tipografics" horiz-adv-x="1000" >
+<font-face font-family="tipografics" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="bag" unicode="&#xe800;" d="M835 668q28-26 24-60l-98-648q-8-30-38-30l-586 0q-28 0-40 30-94 620-96 648-5 34 22 60 6 6 54 43t56 43q18 16 56 16l480 0q38 0 56-16 78-58 110-86z m-406-436q56 0 98 34t63 89 30 89 13 66l-92 0q-38-188-112-188t-112 188l-92 0q46-278 204-278z m-352 368l704 0-110 116-484 0z" horiz-adv-x="859" />
+
+<glyph glyph-name="upload" unicode="&#xf0ee;" d="M714 368q0 8-5 13l-196 196q-5 5-13 5t-13-5l-196-196q-5-6-5-13 0-8 5-13t13-5h125v-196q0-8 5-13t12-5h108q7 0 12 5t5 13v196h125q8 0 13 5t5 13z m357-161q0-89-62-151t-152-63h-607q-103 0-177 73t-73 177q0 72 39 134t105 92q-1 17-1 24 0 118 84 202t202 84q87 0 159-49t105-129q40 35 93 35 59 0 101-42t42-101q0-43-23-77 72-17 119-76t46-133z" horiz-adv-x="1071.4" />
+
+<glyph glyph-name="files" unicode="&#xf1c6;" d="M357 636v71h-71v-71h71z m72-72v72h-72v-72h72z m-72-71v71h-71v-71h71z m72-72v72h-72v-72h72z m390 217q16-16 27-42t11-50v-642q0-23-15-38t-38-16h-750q-23 0-38 16t-16 38v892q0 23 16 38t38 16h500q22 0 49-11t42-27z m-248 136v-210h210q-5 17-12 23l-175 175q-6 7-23 12z m215-853v572h-232q-23 0-38 16t-16 37v233h-71v-72h-72v72h-286v-858h715z m-350 403l60-195q4-15 4-29 0-46-40-77t-103-30-102 30-41 77q0 14 5 29 12 35 67 221v71h71v-71h44q13 0 22-7t13-19z m-79-260q30 0 51 11t21 25-21 25-51 11-50-11-21-25 21-25 50-11z" horiz-adv-x="857.1" />
+</font>
+</defs>
+</svg>

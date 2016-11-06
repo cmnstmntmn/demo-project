@@ -7,9 +7,11 @@ const fs = require('fs-extra')
     , wright = require('wright')
 
 fs.removeSync('workspace/build')
+fs.copySync('./workspace/source/fonts', './workspace/build/fonts', { clobber: true })
 
 wright({
   main: 'http://wright-test.dev',
+  serve: 'workspace/build',
   debug: true,
   fps: true,
   run: 'm.redraw()',

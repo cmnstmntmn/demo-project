@@ -1,0 +1,28 @@
+{
+  "name": "tipografics",
+  "css_prefix_text": "icon-",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "e80ae555c1413a4ec18b33fb348b4049",
+      "css": "files",
+      "code": 61894,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "2c71ee1c65e1992ba32d5ffc5ee7f337",
+      "css": "bag",
+      "code": 59392,
+      "src": "entypo"
+    },
+    {
+      "uid": "de2fc7a5c986ab8c622f63455d7cf814",
+      "css": "upload",
+      "code": 61678,
+      "src": "fontawesome"
+    }
+  ]
+}
